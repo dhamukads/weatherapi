@@ -1,0 +1,73 @@
+:host{
+    float:left;
+    width:25%;
+    padding:0 10px 0 0;
+}
+h3{
+    margin:0 0 10px;
+    padding:0;
+    font-size:18px;
+}
+button{
+    display:block;
+    width:100%;
+    font-size:16px;
+    font-family:inherit;
+    background-color:red;
+    box-shadow:2px 4px 6px #95a5a6;
+    border:none;
+    padding:8px;
+    cursor:pointer;
+    color:#fff;
+    transition: all 0.1s;
+}
+button:active,button:focus{
+    outline: none;
+}
+button:active{
+    transform: scale(0.95);
+}
+button:hover{
+    background-color:#9cb0bd
+}
+.profile{
+    position:relative;
+    cursor:pointer;
+}
+.profile h4{
+    margin:0;
+    padding:0;
+}
+.profile p{
+    margin:0;
+    padding:0;
+}
+.profile .delete{
+    position:absolute;
+    top:5px;
+    right:10px;
+    font-size:em;
+    line-height:1em;
+    color: rgba(300, 0, 0, 0.7);
+    text-align: center;
+    display:block;
+    width:1em;
+}
+.profile .delete:hover{
+    color: rgb(170, 15, 0);
+}
+.profile .inner{
+    padding:6px;
+    margin-top:20px;
+    background-color:#eff1f1;
+    transition: all 0.1s;
+}
+.profile,
+.profile:hover,
+.profile:hover .inner,
+.profile .inner:hover{
+    background-color:#8bc9f5;
+}
+.profile .inner:active{
+    transform: scale(1.05);
+}
